@@ -38,7 +38,7 @@
 void inputArr(int n, int *a)
 {
     for (int i=0;i<n;i++)
-		scanf("%d",&a[i]);
+	scanf("%d",&a[i]);
 }
 
 void print_2_index(int *a, int n)
