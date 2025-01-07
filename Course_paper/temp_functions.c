@@ -2,7 +2,7 @@
 
 void print_help() 
 {
-    printf("Usage: ./stats.exe -f <filename.csv> -m <month> \n");
+    printf("Usage: ./stats.exe -f <filename.csv> -m <month> -v -e \n");
     printf("    -h    Show this help message.\n");
     printf("    -f    Enter the name of the CSV file.le.\n");
     printf("    -m    It can take the value [1-12] to calculate statistics for the specified month. If the -m argument is omitted or the month after the -m argument is omitted, statistics for the year are calculated\n");
