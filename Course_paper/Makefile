@@ -9,4 +9,6 @@ main.o: main.c temp_functions.h
 temp_functions.o: temp_functions.c temp_functions.h
 	gcc -c temp_functions.c
 
-clean: rm -rf *.o stats
+clean: 
+	del *.o 
+	del stats.exe
