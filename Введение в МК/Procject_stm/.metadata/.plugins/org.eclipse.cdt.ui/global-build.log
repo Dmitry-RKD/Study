@@ -1,0 +1,21 @@
+08:57:11 **** Build of configuration Debug for project Display_Fast_mode ****
+make -j6 all 
+arm-none-eabi-gcc "../Core/Src/ssd1306.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ssd1306.d" -MT"Core/Src/ssd1306.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ssd1306.o"
+arm-none-eabi-gcc "../Core/Src/ssd1306_interface.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ssd1306_interface.d" -MT"Core/Src/ssd1306_interface.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ssd1306_interface.o"
+arm-none-eabi-gcc -o "Display_Fast_mode.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\VirtWin10\Desktop\Display_Fast_mode\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Display_Fast_mode.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Display_Fast_mode.elf
+ 
+arm-none-eabi-size  Display_Fast_mode.elf 
+arm-none-eabi-objdump -h -S Display_Fast_mode.elf  > "Display_Fast_mode.list"
+arm-none-eabi-objcopy  -O ihex Display_Fast_mode.elf  "Display_Fast_mode.hex"
+arm-none-eabi-objcopy  -O binary Display_Fast_mode.elf  "Display_Fast_mode.bin"
+   text	   data	    bss	    dec	    hex	filename
+   8508	     12	   2172	  10692	   29c4	Display_Fast_mode.elf
+Finished building: default.size.stdout
+ 
+Finished building: Display_Fast_mode.hex
+Finished building: Display_Fast_mode.bin
+ 
+ 
+Finished building: Display_Fast_mode.list
+ 

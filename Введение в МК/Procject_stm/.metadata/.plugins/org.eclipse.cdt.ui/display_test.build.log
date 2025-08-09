@@ -1,0 +1,431 @@
+21:06:45 **** Build of configuration Debug for project display_test ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103cbtx.d" -MT"Core/Startup/startup_stm32f103cbtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103cbtx.o" "../Core/Startup/startup_stm32f103cbtx.s"
+arm-none-eabi-gcc "../Core/Src/fonts.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/fonts.d" -MT"Core/Src/fonts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fonts.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/ssd1306.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ssd1306.d" -MT"Core/Src/ssd1306.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ssd1306.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+In file included from ../Core/Src/fonts.c:23:
+../Core/Inc/fonts.h:55:9: error: unknown type name 'uint8_t'
+   55 |         uint8_t FontWidth;    /*!< Font width in pixels */
+      |         ^~~~~~~
+../Core/Inc/fonts.h:56:9: error: unknown type name 'uint8_t'
+   56 |         uint8_t FontHeight;   /*!< Font height in pixels */
+      |         ^~~~~~~
+In file included from ../Core/Inc/ssd1306.h:48,
+                 from ../Core/Src/ssd1306.c:23:
+../Core/Inc/fonts.h:55:9: error: unknown type name 'uint8_t'
+   55 |         uint8_t FontWidth;    /*!< Font width in pixels */
+      |         ^~~~~~~
+../Core/Inc/fonts.h:57:15: error: unknown type name 'uint16_t'
+   57 |         const uint16_t *data; /*!< Pointer to data font data array */
+      |               ^~~~~~~~
+../Core/Inc/fonts.h:56:9: error: unknown type name 'uint8_t'
+   56 |         uint8_t FontHeight;   /*!< Font height in pixels */
+      |         ^~~~~~~
+../Core/Inc/fonts.h:57:15: error: unknown type name 'uint16_t'
+   57 |         const uint16_t *data; /*!< Pointer to data font data array */
+      |               ^~~~~~~~
+../Core/Inc/fonts.h:64:9: error: unknown type name 'uint16_t'
+   64 |         uint16_t Length;      /*!< String length in units of pixels */
+      |         ^~~~~~~~
+../Core/Inc/fonts.h:64:9: error: unknown type name 'uint16_t'
+   64 |         uint16_t Length;      /*!< String length in units of pixels */
+      |         ^~~~~~~~
+../Core/Inc/fonts.h:65:9: error: unknown type name 'uint16_t'
+   65 |         uint16_t Height;      /*!< String height in units of pixels */
+      |         ^~~~~~~~
+../Core/Inc/fonts.h:65:9: error: unknown type name 'uint16_t'
+   65 |         uint16_t Height;      /*!< String height in units of pixels */
+      |         ^~~~~~~~
+../Core/Src/fonts.c:25:7: error: unknown type name 'uint16_t'
+   25 | const uint16_t Font7x10 [] = {
+      |       ^~~~~~~~
+../Core/Src/fonts.c:123:7: error: unknown type name 'uint16_t'
+  123 | const uint16_t Font11x18 [] = {
+      |       ^~~~~~~~
+../Core/Src/fonts.c:221:7: error: unknown type name 'uint16_t'
+  221 | const uint16_t Font16x26 [] = {
+      |       ^~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/fonts.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Inc/ssd1306.h:93:1: error: unknown type name 'uint8_t'
+   93 | uint8_t SSD1306_Init(void);
+      | ^~~~~~~
+../Core/Inc/ssd1306.h:52:1: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+   51 | #include "stdlib.h"
+  +++ |+#include <stdint.h>
+   52 | #include "string.h"
+../Core/Inc/ssd1306.h:127:24: error: unknown type name 'uint16_t'
+  127 | void SSD1306_DrawPixel(uint16_t x, uint16_t y, SSD1306_COLOR_t color);
+      |                        ^~~~~~~~
+../Core/Inc/ssd1306.h:127:24: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:127:36: error: unknown type name 'uint16_t'
+  127 | void SSD1306_DrawPixel(uint16_t x, uint16_t y, SSD1306_COLOR_t color);
+      |                                    ^~~~~~~~
+../Core/Inc/ssd1306.h:127:36: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:135:21: error: unknown type name 'uint16_t'
+  135 | void SSD1306_GotoXY(uint16_t x, uint16_t y);
+      |                     ^~~~~~~~
+../Core/Inc/ssd1306.h:135:21: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:135:33: error: unknown type name 'uint16_t'
+  135 | void SSD1306_GotoXY(uint16_t x, uint16_t y);
+      |                                 ^~~~~~~~
+../Core/Inc/ssd1306.h:135:33: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:167:23: error: unknown type name 'uint16_t'
+  167 | void SSD1306_DrawLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, SSD1306_COLOR_t c);
+      |                       ^~~~~~~~
+../Core/Inc/ssd1306.h:167:23: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:167:36: error: unknown type name 'uint16_t'
+  167 | void SSD1306_DrawLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, SSD1306_COLOR_t c);
+      |                                    ^~~~~~~~
+../Core/Inc/ssd1306.h:167:36: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:167:49: error: unknown type name 'uint16_t'
+  167 | void SSD1306_DrawLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, SSD1306_COLOR_t c);
+      |                                                 ^~~~~~~~
+../Core/Inc/ssd1306.h:167:49: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:167:62: error: unknown type name 'uint16_t'
+  167 | void SSD1306_DrawLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, SSD1306_COLOR_t c);
+      |                                                              ^~~~~~~~
+../Core/Inc/ssd1306.h:167:62: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:179:28: error: unknown type name 'uint16_t'
+  179 | void SSD1306_DrawRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c);
+      |                            ^~~~~~~~
+../Core/Inc/ssd1306.h:179:28: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:179:40: error: unknown type name 'uint16_t'
+  179 | void SSD1306_DrawRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c);
+      |                                        ^~~~~~~~
+../Core/Inc/ssd1306.h:179:40: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:179:52: error: unknown type name 'uint16_t'
+  179 | void SSD1306_DrawRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c);
+      |                                                    ^~~~~~~~
+../Core/Inc/ssd1306.h:179:52: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:179:64: error: unknown type name 'uint16_t'
+  179 | void SSD1306_DrawRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c);
+      |                                                                ^~~~~~~~
+../Core/Inc/ssd1306.h:179:64: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:191:34: error: unknown type name 'uint16_t'
+  191 | void SSD1306_DrawFilledRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c);
+      |                                  ^~~~~~~~
+../Core/Inc/ssd1306.h:191:34: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:191:46: error: unknown type name 'uint16_t'
+  191 | void SSD1306_DrawFilledRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c);
+      |                                              ^~~~~~~~
+../Core/Inc/ssd1306.h:191:46: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:191:58: error: unknown type name 'uint16_t'
+  191 | void SSD1306_DrawFilledRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c);
+      |                                                          ^~~~~~~~
+../Core/Inc/ssd1306.h:191:58: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:191:70: error: unknown type name 'uint16_t'
+  191 | void SSD1306_DrawFilledRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c);
+      |                                                                      ^~~~~~~~
+../Core/Inc/ssd1306.h:191:70: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:205:27: error: unknown type name 'uint16_t'
+  205 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color);
+      |                           ^~~~~~~~
+../Core/Inc/ssd1306.h:205:27: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:205:40: error: unknown type name 'uint16_t'
+  205 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color);
+      |                                        ^~~~~~~~
+../Core/Inc/ssd1306.h:205:40: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:205:53: error: unknown type name 'uint16_t'
+  205 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color);
+      |                                                     ^~~~~~~~
+../Core/Inc/ssd1306.h:205:53: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:205:66: error: unknown type name 'uint16_t'
+  205 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color);
+      |                                                                  ^~~~~~~~
+../Core/Inc/ssd1306.h:205:66: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:205:79: error: unknown type name 'uint16_t'
+  205 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color);
+      |                                                                               ^~~~~~~~
+../Core/Inc/ssd1306.h:205:79: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:205:92: error: unknown type name 'uint16_t'
+  205 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color);
+      |                                                                                            ^~~~~~~~
+../Core/Inc/ssd1306.h:205:92: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:216:25: error: unknown type name 'int16_t'
+  216 | void SSD1306_DrawCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c);
+      |                         ^~~~~~~
+../Core/Inc/ssd1306.h:216:25: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:216:37: error: unknown type name 'int16_t'
+  216 | void SSD1306_DrawCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c);
+      |                                     ^~~~~~~
+../Core/Inc/ssd1306.h:216:37: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:216:49: error: unknown type name 'int16_t'
+  216 | void SSD1306_DrawCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c);
+      |                                                 ^~~~~~~
+../Core/Inc/ssd1306.h:216:49: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:227:31: error: unknown type name 'int16_t'
+  227 | void SSD1306_DrawFilledCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c);
+      |                               ^~~~~~~
+../Core/Inc/ssd1306.h:227:31: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:227:43: error: unknown type name 'int16_t'
+  227 | void SSD1306_DrawFilledCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c);
+      |                                           ^~~~~~~
+../Core/Inc/ssd1306.h:227:43: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:227:55: error: unknown type name 'int16_t'
+  227 | void SSD1306_DrawFilledCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c);
+      |                                                       ^~~~~~~
+../Core/Inc/ssd1306.h:227:55: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:33:8: error: unknown type name 'uint8_t'
+   33 | static uint8_t SSD1306_Buffer[SSD1306_WIDTH * SSD1306_HEIGHT / 8];
+      |        ^~~~~~~
+../Core/Src/ssd1306.c:37:9: error: unknown type name 'uint16_t'
+   37 |         uint16_t CurrentX;
+      |         ^~~~~~~~
+../Core/Src/ssd1306.c:38:9: error: unknown type name 'uint16_t'
+   38 |         uint16_t CurrentY;
+      |         ^~~~~~~~
+../Core/Src/ssd1306.c:39:9: error: unknown type name 'uint8_t'
+   39 |         uint8_t Inverted;
+      |         ^~~~~~~
+../Core/Src/ssd1306.c:40:9: error: unknown type name 'uint8_t'
+   40 |         uint8_t Initialized;
+      |         ^~~~~~~
+../Core/Src/ssd1306.c:46:1: error: unknown type name 'uint8_t'
+   46 | uint8_t SSD1306_Init(void) {
+      | ^~~~~~~
+../Core/Src/ssd1306.c:24:1: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+   23 | #include "ssd1306.h"
+  +++ |+#include <stdint.h>
+   24 | 
+../Core/Src/ssd1306.c: In function 'SSD1306_Init':
+../Core/Src/ssd1306.c:49:9: warning: implicit declaration of function 'ssd1306_I2C_Init'; did you mean 'SSD1306_Init'? [-Wimplicit-function-declaration]
+   49 |         ssd1306_I2C_Init();
+      |         ^~~~~~~~~~~~~~~~
+      |         SSD1306_Init
+../Core/Src/ssd1306.c:52:14: warning: implicit declaration of function 'ssd1306_I2C_IsDeviceConnected' [-Wimplicit-function-declaration]
+   52 |         if (!ssd1306_I2C_IsDeviceConnected(SSD1306_I2C, SSD1306_I2C_ADDR)) {
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/ssd1306.h:57:34: error: 'I2C1' undeclared (first use in this function)
+   57 | #define SSD1306_I2C              I2C1
+      |                                  ^~~~
+../Core/Src/ssd1306.c:52:44: note: in expansion of macro 'SSD1306_I2C'
+   52 |         if (!ssd1306_I2C_IsDeviceConnected(SSD1306_I2C, SSD1306_I2C_ADDR)) {
+      |                                            ^~~~~~~~~~~
+../Core/Inc/ssd1306.h:57:34: note: each undeclared identifier is reported only once for each function it appears in
+   57 | #define SSD1306_I2C              I2C1
+      |                                  ^~~~
+../Core/Src/ssd1306.c:52:44: note: in expansion of macro 'SSD1306_I2C'
+   52 |         if (!ssd1306_I2C_IsDeviceConnected(SSD1306_I2C, SSD1306_I2C_ADDR)) {
+      |                                            ^~~~~~~~~~~
+../Core/Src/ssd1306.c:58:9: error: unknown type name 'uint32_t'
+   58 |         uint32_t p = 2500;
+      |         ^~~~~~~~
+../Core/Src/ssd1306.c:58:9: note: 'uint32_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:26:44: warning: implicit declaration of function 'ssd1306_I2C_Write' [-Wimplicit-function-declaration]
+   26 | #define SSD1306_WRITECOMMAND(command)      ssd1306_I2C_Write(SSD1306_I2C, SSD1306_I2C_ADDR, 0x00, (command))
+      |                                            ^~~~~~~~~~~~~~~~~
+../Core/Src/ssd1306.c:63:9: note: in expansion of macro 'SSD1306_WRITECOMMAND'
+   63 |         SSD1306_WRITECOMMAND(0xAE); //display off
+      |         ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/ssd1306.c: In function 'SSD1306_UpdateScreen':
+../Core/Src/ssd1306.c:110:9: error: unknown type name 'uint8_t'
+  110 |         uint8_t m;
+      |         ^~~~~~~
+../Core/Src/ssd1306.c:110:9: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/ssd1306.h:57:34: error: 'I2C1' undeclared (first use in this function)
+   57 | #define SSD1306_I2C              I2C1
+      |                                  ^~~~
+../Core/Src/ssd1306.c:26:62: note: in expansion of macro 'SSD1306_I2C'
+   26 | #define SSD1306_WRITECOMMAND(command)      ssd1306_I2C_Write(SSD1306_I2C, SSD1306_I2C_ADDR, 0x00, (command))
+      |                                                              ^~~~~~~~~~~
+../Core/Src/ssd1306.c:113:17: note: in expansion of macro 'SSD1306_WRITECOMMAND'
+  113 |                 SSD1306_WRITECOMMAND(0xB0 + m);
+      |                 ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/ssd1306.c:118:17: warning: implicit declaration of function 'ssd1306_I2C_WriteMulti' [-Wimplicit-function-declaration]
+  118 |                 ssd1306_I2C_WriteMulti(SSD1306_I2C, SSD1306_I2C_ADDR, 0x40, &SSD1306_Buffer[SSD1306_WIDTH * m], SSD1306_WIDTH);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/ssd1306.c: In function 'SSD1306_ToggleInvert':
+../Core/Src/ssd1306.c:123:9: error: unknown type name 'uint16_t'
+  123 |         uint16_t i;
+      |         ^~~~~~~~
+../Core/Src/ssd1306.c:123:9: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c: At top level:
+../Core/Src/ssd1306.c:139:24: error: unknown type name 'uint16_t'
+  139 | void SSD1306_DrawPixel(uint16_t x, uint16_t y, SSD1306_COLOR_t color) {
+      |                        ^~~~~~~~
+../Core/Src/ssd1306.c:139:24: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:139:36: error: unknown type name 'uint16_t'
+  139 | void SSD1306_DrawPixel(uint16_t x, uint16_t y, SSD1306_COLOR_t color) {
+      |                                    ^~~~~~~~
+../Core/Src/ssd1306.c:139:36: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:161:21: error: unknown type name 'uint16_t'
+  161 | void SSD1306_GotoXY(uint16_t x, uint16_t y) {
+      |                     ^~~~~~~~
+../Core/Src/ssd1306.c:161:21: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:161:33: error: unknown type name 'uint16_t'
+  161 | void SSD1306_GotoXY(uint16_t x, uint16_t y) {
+      |                                 ^~~~~~~~
+../Core/Src/ssd1306.c:161:33: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c: In function 'SSD1306_Putc':
+../Core/Src/ssd1306.c:168:9: error: unknown type name 'uint32_t'
+  168 |         uint32_t i, b, j;
+      |         ^~~~~~~~
+../Core/Src/ssd1306.c:168:9: note: 'uint32_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:184:33: warning: implicit declaration of function 'SSD1306_DrawPixel' [-Wimplicit-function-declaration]
+  184 |                                 SSD1306_DrawPixel(SSD1306.CurrentX + j, (SSD1306.CurrentY + i), (SSD1306_COLOR_t) color);
+      |                                 ^~~~~~~~~~~~~~~~~
+../Core/Src/ssd1306.c: At top level:
+../Core/Src/ssd1306.c:216:23: error: unknown type name 'uint16_t'
+  216 | void SSD1306_DrawLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, SSD1306_COLOR_t c) {
+      |                       ^~~~~~~~
+../Core/Src/ssd1306.c:216:23: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:216:36: error: unknown type name 'uint16_t'
+  216 | void SSD1306_DrawLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, SSD1306_COLOR_t c) {
+      |                                    ^~~~~~~~
+../Core/Src/ssd1306.c:216:36: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:216:49: error: unknown type name 'uint16_t'
+  216 | void SSD1306_DrawLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, SSD1306_COLOR_t c) {
+      |                                                 ^~~~~~~~
+../Core/Src/ssd1306.c:216:49: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:216:62: error: unknown type name 'uint16_t'
+  216 | void SSD1306_DrawLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, SSD1306_COLOR_t c) {
+      |                                                              ^~~~~~~~
+../Core/Src/ssd1306.c:216:62: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:300:28: error: unknown type name 'uint16_t'
+  300 | void SSD1306_DrawRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c) {
+      |                            ^~~~~~~~
+../Core/Src/ssd1306.c:300:28: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:300:40: error: unknown type name 'uint16_t'
+  300 | void SSD1306_DrawRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c) {
+      |                                        ^~~~~~~~
+../Core/Src/ssd1306.c:300:40: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:300:52: error: unknown type name 'uint16_t'
+  300 | void SSD1306_DrawRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c) {
+      |                                                    ^~~~~~~~
+../Core/Src/ssd1306.c:300:52: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:300:64: error: unknown type name 'uint16_t'
+  300 | void SSD1306_DrawRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c) {
+      |                                                                ^~~~~~~~
+../Core/Src/ssd1306.c:300:64: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:325:34: error: unknown type name 'uint16_t'
+  325 | void SSD1306_DrawFilledRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c) {
+      |                                  ^~~~~~~~
+../Core/Src/ssd1306.c:325:34: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:325:46: error: unknown type name 'uint16_t'
+  325 | void SSD1306_DrawFilledRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c) {
+      |                                              ^~~~~~~~
+../Core/Src/ssd1306.c:325:46: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:325:58: error: unknown type name 'uint16_t'
+  325 | void SSD1306_DrawFilledRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c) {
+      |                                                          ^~~~~~~~
+../Core/Src/ssd1306.c:325:58: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:325:70: error: unknown type name 'uint16_t'
+  325 | void SSD1306_DrawFilledRectangle(uint16_t x, uint16_t y, uint16_t w, uint16_t h, SSD1306_COLOR_t c) {
+      |                                                                      ^~~~~~~~
+../Core/Src/ssd1306.c:325:70: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:352:27: error: unknown type name 'uint16_t'
+  352 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                           ^~~~~~~~
+../Core/Src/ssd1306.c:352:27: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:352:40: error: unknown type name 'uint16_t'
+  352 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                                        ^~~~~~~~
+../Core/Src/ssd1306.c:352:40: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:352:53: error: unknown type name 'uint16_t'
+  352 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                                                     ^~~~~~~~
+../Core/Src/ssd1306.c:352:53: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:352:66: error: unknown type name 'uint16_t'
+  352 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                                                                  ^~~~~~~~
+../Core/Src/ssd1306.c:352:66: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:352:79: error: unknown type name 'uint16_t'
+  352 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                                                                               ^~~~~~~~
+../Core/Src/ssd1306.c:352:79: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:352:92: error: unknown type name 'uint16_t'
+  352 | void SSD1306_DrawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                                                                                            ^~~~~~~~
+../Core/Src/ssd1306.c:352:92: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:360:33: error: unknown type name 'uint16_t'
+  360 | void SSD1306_DrawFilledTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                                 ^~~~~~~~
+../Core/Src/ssd1306.c:360:33: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:360:46: error: unknown type name 'uint16_t'
+  360 | void SSD1306_DrawFilledTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                                              ^~~~~~~~
+../Core/Src/ssd1306.c:360:46: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:360:59: error: unknown type name 'uint16_t'
+  360 | void SSD1306_DrawFilledTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                                                           ^~~~~~~~
+../Core/Src/ssd1306.c:360:59: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:360:72: error: unknown type name 'uint16_t'
+  360 | void SSD1306_DrawFilledTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                                                                        ^~~~~~~~
+../Core/Src/ssd1306.c:360:72: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:360:85: error: unknown type name 'uint16_t'
+  360 | void SSD1306_DrawFilledTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                                                                                     ^~~~~~~~
+../Core/Src/ssd1306.c:360:85: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:360:98: error: unknown type name 'uint16_t'
+  360 | void SSD1306_DrawFilledTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3, SSD1306_COLOR_t color) {
+      |                                                                                                  ^~~~~~~~
+../Core/Src/ssd1306.c:360:98: note: 'uint16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:416:25: error: unknown type name 'int16_t'
+  416 | void SSD1306_DrawCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c) {
+      |                         ^~~~~~~
+../Core/Src/ssd1306.c:416:25: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:416:37: error: unknown type name 'int16_t'
+  416 | void SSD1306_DrawCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c) {
+      |                                     ^~~~~~~
+../Core/Src/ssd1306.c:416:37: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:416:49: error: unknown type name 'int16_t'
+  416 | void SSD1306_DrawCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c) {
+      |                                                 ^~~~~~~
+../Core/Src/ssd1306.c:416:49: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:450:31: error: unknown type name 'int16_t'
+  450 | void SSD1306_DrawFilledCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c) {
+      |                               ^~~~~~~
+../Core/Src/ssd1306.c:450:31: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:450:43: error: unknown type name 'int16_t'
+  450 | void SSD1306_DrawFilledCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c) {
+      |                                           ^~~~~~~
+../Core/Src/ssd1306.c:450:43: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c:450:55: error: unknown type name 'int16_t'
+  450 | void SSD1306_DrawFilledCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t c) {
+      |                                                       ^~~~~~~
+../Core/Src/ssd1306.c:450:55: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/ssd1306.c: In function 'SSD1306_ON':
+../Core/Inc/ssd1306.h:57:34: error: 'I2C1' undeclared (first use in this function)
+   57 | #define SSD1306_I2C              I2C1
+      |                                  ^~~~
+../Core/Src/ssd1306.c:26:62: note: in expansion of macro 'SSD1306_I2C'
+   26 | #define SSD1306_WRITECOMMAND(command)      ssd1306_I2C_Write(SSD1306_I2C, SSD1306_I2C_ADDR, 0x00, (command))
+      |                                                              ^~~~~~~~~~~
+../Core/Src/ssd1306.c:482:9: note: in expansion of macro 'SSD1306_WRITECOMMAND'
+  482 |         SSD1306_WRITECOMMAND(0x8D);
+      |         ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/ssd1306.c: In function 'SSD1306_OFF':
+../Core/Inc/ssd1306.h:57:34: error: 'I2C1' undeclared (first use in this function)
+   57 | #define SSD1306_I2C              I2C1
+      |                                  ^~~~
+../Core/Src/ssd1306.c:26:62: note: in expansion of macro 'SSD1306_I2C'
+   26 | #define SSD1306_WRITECOMMAND(command)      ssd1306_I2C_Write(SSD1306_I2C, SSD1306_I2C_ADDR, 0x00, (command))
+      |                                                              ^~~~~~~~~~~
+../Core/Src/ssd1306.c:487:9: note: in expansion of macro 'SSD1306_WRITECOMMAND'
+  487 |         SSD1306_WRITECOMMAND(0x8D);
+      |         ^~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/ssd1306.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+21:07:05 Build Failed. 93 errors, 5 warnings. (took 19s.862ms)
+

@@ -1,0 +1,29 @@
+17:02:16 **** Incremental Build of configuration Debug for project Display_Fast2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/ssd1306_tests.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ssd1306_tests.d" -MT"Core/Src/ssd1306_tests.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ssd1306_tests.o"
+../Core/Src/ssd1306_tests.c: In function 'ssd1306_TestFonts1':
+../Core/Src/ssd1306_tests.c:140:13: warning: unused variable 'y' [-Wunused-variable]
+  140 |     uint8_t y = 0;
+      |             ^
+arm-none-eabi-gcc -o "Display_Fast2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\VirtWin10\STM32CubeIDE\workspace_1.18.1\Display_Fast2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Display_Fast2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/ssd1306.o: in function `ssd1306_Init':
+C:/Users/VirtWin10/STM32CubeIDE/workspace_1.18.1/Display_Fast2/Debug/../Core/Src/ssd1306.c:77:(.text.ssd1306_Init+0x4): undefined reference to `ssd1306_Reset'
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/VirtWin10/STM32CubeIDE/workspace_1.18.1/Display_Fast2/Debug/../Core/Src/ssd1306.c:85:(.text.ssd1306_Init+0x16): undefined reference to `ssd1306_WriteCommand'
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/VirtWin10/STM32CubeIDE/workspace_1.18.1/Display_Fast2/Debug/../Core/Src/ssd1306.c:86:(.text.ssd1306_Init+0x1c): undefined reference to `ssd1306_WriteCommand'
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/VirtWin10/STM32CubeIDE/workspace_1.18.1/Display_Fast2/Debug/../Core/Src/ssd1306.c:89:(.text.ssd1306_Init+0x22): undefined reference to `ssd1306_WriteCommand'
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/VirtWin10/STM32CubeIDE/workspace_1.18.1/Display_Fast2/Debug/../Core/Src/ssd1306.c:94:(.text.ssd1306_Init+0x28): undefined reference to `ssd1306_WriteCommand'
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/VirtWin10/STM32CubeIDE/workspace_1.18.1/Display_Fast2/Debug/../Core/Src/ssd1306.c:97:(.text.ssd1306_Init+0x2e): undefined reference to `ssd1306_WriteCommand'
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/ssd1306.o:C:/Users/VirtWin10/STM32CubeIDE/workspace_1.18.1/Display_Fast2/Debug/../Core/Src/ssd1306.c:98: more undefined references to `ssd1306_WriteCommand' follow
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/ssd1306.o: in function `ssd1306_UpdateScreen':
+C:/Users/VirtWin10/STM32CubeIDE/workspace_1.18.1/Display_Fast2/Debug/../Core/Src/ssd1306.c:193:(.text.ssd1306_UpdateScreen+0x30): undefined reference to `ssd1306_WriteData'
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/ssd1306.o: in function `ssd1306_SetContrast':
+C:/Users/VirtWin10/STM32CubeIDE/workspace_1.18.1/Display_Fast2/Debug/../Core/Src/ssd1306.c:577:(.text.ssd1306_SetContrast+0x12): undefined reference to `ssd1306_WriteCommand'
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/VirtWin10/STM32CubeIDE/workspace_1.18.1/Display_Fast2/Debug/../Core/Src/ssd1306.c:578:(.text.ssd1306_SetContrast+0x1a): undefined reference to `ssd1306_WriteCommand'
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/ssd1306.o: in function `ssd1306_SetDisplayOn':
+C:/Users/VirtWin10/STM32CubeIDE/workspace_1.18.1/Display_Fast2/Debug/../Core/Src/ssd1306.c:590:(.text.ssd1306_SetDisplayOn+0x2a): undefined reference to `ssd1306_WriteCommand'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: Display_Fast2.elf] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+17:02:20 Build Failed. 12 errors, 1 warnings. (took 3s.652ms)
+
